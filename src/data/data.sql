@@ -1,0 +1,11 @@
+CREATE DATABASE LACHOSE;
+CREATE TABLE user (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(50) NOT NULL,
+    email VARCHAR(100) NOT NULL,
+    username VARCHAR(50),
+    dateNais DATE,
+    password VARCHAR(255) NOT NULL
+);
+
+
